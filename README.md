@@ -41,7 +41,7 @@ This example shows overnight traffic patterns in the Singapore Strait, one of th
 ### Prerequisites
 
 - Python 3.11+
-- Free API key from [aisstream.io](https://aisstream.io)
+- Free API key from [aisstream.io](https://aisstream.io). Just log in with github credentials, get the API key and paste it into file config.py. All under one minute
 
 ### Installation
 
@@ -194,30 +194,10 @@ This project demonstrates:
 
 - [AISStream API Documentation](https://aisstream.io/documentation)
 - [AIS Message Types](https://www.imo.org/)
-- [Python websockets](https://websockets.readthedocs.io/)
-- [Pandas Time Series](https://pandas.pydata.org/docs/user_guide/timeseries.html)
 
-## Future Enhancements
-
-- [ ] Geographic heatmap of vessel positions
-- [ ] Speed analysis and congestion detection
-- [ ] Anomaly detection for unusual traffic patterns
-- [ ] Web-based dashboard (Plotly Dash or Streamlit)
-- [ ] Multi-region comparison
-- [ ] Historical pattern analysis
-- [ ] Export to Grafana
-
-## License
-
-MIT License - feel free to use and modify as you wish.
 
 ## Acknowledgments
 
 - AIS data provided by [AISStream.io](https://aisstream.io)
 - Built with Python, websockets, pandas, matplotlib, SQLite
 
-## Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/ais-vessel-stream](https://github.com/yourusername/ais-vessel-stream)
