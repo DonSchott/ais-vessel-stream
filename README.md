@@ -47,15 +47,15 @@ This example shows overnight traffic patterns in the Singapore Strait, one of th
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ais-vessel-stream.git
+git clone https://github.com/DonSchott/ais-vessel-stream.git
 cd ais-vessel-stream
 
 # Create virtual environment
-python3 -m venv .venv
+uv venv --python python3.11 .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ### Configuration
